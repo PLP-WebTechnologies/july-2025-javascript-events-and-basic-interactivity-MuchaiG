@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Music Library</h1>
+    <button id="themeToggle">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Form Section -->
+    <section>
+      <h2>Sign Up Form</h2>
+      <form id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="username">
+        <small class="error" id="usernameError"></small><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email">
+        <small class="error" id="emailError"></small><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <small class="error" id="passwordError"></small><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Interactive Section 1: Character Counter -->
+    <section>
+      <h2>Comments Box</h2>
+      <textarea id="messageBox" rows="4" cols="40" maxlength="200" placeholder="Your comments are welcomed..."></textarea>
+      <p id="charCount">0 / 200 characters</p>
+    </section>
+
+    <!-- Interactive Section 2: Clickable Link -->
+    <section>
+      <h2>Interactive Link</h2>
+      <a href="#" id="funLink">Click me for a surprise</a>
+      <p id="linkMessage"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

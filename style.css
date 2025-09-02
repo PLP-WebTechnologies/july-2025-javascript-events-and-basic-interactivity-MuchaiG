@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
